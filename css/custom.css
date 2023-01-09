@@ -1,0 +1,213 @@
+#logo-image {
+  width: 7vh;
+  height: auto;
+}
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+.navbar-toggler {
+    padding: 0.20rem 0.45rem !important;
+
+}
+
+.cards-container {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.logo-text {
+  font-weight: 700;
+}
+
+.phone-number-index {
+  font-size: 5vw;
+  color: white !important;
+  text-decoration: none;
+}
+
+.phone-number-contact{
+  font-size: 3vw;
+  color: white !important;
+  text-decoration: none;
+  
+}
+
+.email-contact {
+  font-size: 1.6rem;
+  color: white !important;
+  text-decoration: none;
+}.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.location-contact {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .email-contact {
+    font-size: 5vw;
+    color: white !important;
+    text-decoration: none;
+  }
+  .phone-number-index {
+    font-size: 10vw;
+  }
+  .phone-number-contact{
+    font-size: 10vw;
+    color: white !important;
+    text-decoration: none;
+    
+  }
+  
+}
+
+.contact-us-form {
+  padding-top: 40px;
+}
+
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+.owner-image {
+  display: flex;
+  justify-content: center;
+}
+.owner-image > img {
+  width: 20vw;
+}
+
+/* footer icons */
+
+.footer {
+  padding: 10px 0;
+}
+.footer a {
+  justify-content: center;
+  color: #70726f;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726f;
+  transition: all 0.5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726f;
+}
+.footer a:hover {
+  color: white;
+}
+
+/* image slider, before and after  */
+img-comparison-slider {
+  --divider-width: 5px;
+  --divider-color: #c0c0c0;
+  --default-handle-opacity: 1;
+  --default-handle-width: 120px;
+  --default-handle-shadow:5px 15px 5px rgb(235, 102, 102);
+  
+}
+
+img-comparison-slider img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+
+.before,
+.after {
+  margin: 0;
+}
+
+.before figcaption,
+.after figcaption {
+  background: #fff;
+  border: 1px solid #c0c0c0;
+  border-radius: 12px;
+  color: #2e3452;
+  opacity: 0.8;
+  padding: 12px;
+  position: absolute;
+  top: 90%;
+  transform: translateY(-50%);
+  line-height: 100%;
+}
+
+.before figcaption {
+  left: 12px;
+}
+
+.after figcaption {
+  right: 12px;
+}
+/* image slider, end  */
+
+/* about page container */
+
+.blockabout  h3{
+    font-size: 2rem;
+}
+.about-page-container {
+  height: 60rem;
+
+  margin-top: 40px;
+}
+
+.form-success-text {
+  width: 100vw;
+}
+
+.info-card-contact {
+  height: 100%;
+  width: auto;
+}
+
+.about-page-container img {
+  width: 40vh;
+}
+.about-image-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-page-container img {
+    width: 30vh;
+  }
+  .about-image-desktop {
+    display: none;
+  }
+  .about-image-mobile {
+    display: contents;
+  }
+}
+
+.about-page-container > .card {
+  align-items: center;
+}
+/* about page container end */
+
+/* services page container */
+
